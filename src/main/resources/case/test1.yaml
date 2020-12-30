@@ -1,0 +1,10 @@
+name: departmentTestCase
+description: 部门测试
+steps:
+  - api: tokenhelper
+    action: getToken
+    requestData:
+      corpid: ww5ef451bf006ec894
+      corpsecret: EcEIog2OJ8AtO7PDaqt_yqHKqmYXqwSZKDhyfU1aSiU
+    saveGlobal:
+      accesstoken: access_token
